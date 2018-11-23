@@ -22,49 +22,52 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-        <div class="mx-auto jumbotron text-center mx-auto " style="background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);"> 
-                <h1 class="display-2 ">Submmision Box</h1>
-                <h4 class=" "><strong>Industry 4.0</strong></h4>
+    <nav class="navbar container navbar-expand-lg navbar-light bg-white" >
+        <a class="navbar-brand" href="#">
+            <img src="https://scontent.fybz2-2.fna.fbcdn.net/v/t1.0-1/p200x200/35428355_2010724575923503_3577653228663209984_n.png?_nc_cat=106&_nc_ht=scontent.fybz2-2.fna&oh=2a2dcb53e0891b8a7354d54ed120dc0d&oe=5C7EDE86" width="80" height="60" alt="">
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse   " id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item ">
+              <a class="nav-link" href={% url "index" %}>Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href={% url "user_index" %}>Submit<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+                    <a class="nav-link" href={% url "user_history" %}>History<span class="sr-only">(current)</span></a>
+                  </li>
+            <li class="nav-item dropdown disabled">
+              <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort By
+              </a>
+              <div class="dropdown-menu disabled" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item disabled" href={% url "index" %}>Porject Name</a>
+                    <a class="dropdown-item disabled" href={% url "user-oldToNew" %}>Old to New</a>
+                    <a class="dropdown-item disabled" href={% url "user-newToOld" %}>New to Old</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href={% url "user_index" %}>Submit My Work</a>
+              </div>
+            </li>
+              </ul>
+          <div class="form-inline my-2 my-lg-0">
+                <a  class="btn btn-outline-light btn-block btn-lg my-2 my-sm-0" href={% url "index" %}>Go to Weekly Update</a>
+            
+          </div>
+        </div>
+      </nav>
+        <div class="mx-auto jumbotron text-center mx-auto " style="background-image: linear-gradient(170deg, #84fab0 0%, #8fd3f4 100%);"> 
+                <h1 class="display-2 text-white " style="word-spacing: -10px">Drop Box</h1>
+                <h4 class="mt-3 text-white" style="word-spacing: 5.5px"><strong>Send us your latest work here</strong></h4>
             </div>
 
 
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-               
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse   " id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto ">
-                        <li class="nav-item ">
-                          <a class="nav-link" href={% url "index" %}>Home</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href={% url "user_index" %}>Submit<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item ">
-                                <a class="nav-link" href={% url "user_history" %}>History<span class="sr-only">(current)</span></a>
-                              </li>
-                        <li class="nav-item dropdown disabled">
-                          <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sort By
-                          </a>
-                          <div class="dropdown-menu disabled" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item disabled" href={% url "index" %}>Porject Name</a>
-                                <a class="dropdown-item disabled" href={% url "user-oldToNew" %}>Old to New</a>
-                                <a class="dropdown-item disabled" href={% url "user-newToOld" %}>New to Old</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href={% url "user_index" %}>Submit My Work</a>
-                          </div>
-                        </li>
-                          </ul>
-                      <div class="form-inline my-2 my-lg-0">
-                            <a  class="btn btn-outline-light btn-block btn-lg my-2 my-sm-0" href={% url "index" %}>Go to Weekly Update</a>
-                        
-                      </div>
-                    </div>
-                  </nav>
+           
     <div class="container ">
         
 

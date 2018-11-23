@@ -1,0 +1,150 @@
+{
+  "arch": "x86_64",
+  "build": "py35hfa6e2cd_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.5,<3.6.0a0",
+    "vc 14.*"
+  ],
+  "extracted_package_dir": "C:\\Users\\alanw\\Anaconda3\\pkgs\\typed-ast-1.1.0-py35hfa6e2cd_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/_ast27.cp35-win_amd64.pyd",
+    "Lib/site-packages/_ast3.cp35-win_amd64.pyd",
+    "Lib/site-packages/typed_ast-1.1.0-py3.5.egg-info/PKG-INFO",
+    "Lib/site-packages/typed_ast-1.1.0-py3.5.egg-info/SOURCES.txt",
+    "Lib/site-packages/typed_ast-1.1.0-py3.5.egg-info/dependency_links.txt",
+    "Lib/site-packages/typed_ast-1.1.0-py3.5.egg-info/top_level.txt",
+    "Lib/site-packages/typed_ast/__init__.py",
+    "Lib/site-packages/typed_ast/__pycache__/__init__.cpython-35.pyc",
+    "Lib/site-packages/typed_ast/__pycache__/ast27.cpython-35.pyc",
+    "Lib/site-packages/typed_ast/__pycache__/ast3.cpython-35.pyc",
+    "Lib/site-packages/typed_ast/__pycache__/conversions.cpython-35.pyc",
+    "Lib/site-packages/typed_ast/ast27.py",
+    "Lib/site-packages/typed_ast/ast3.py",
+    "Lib/site-packages/typed_ast/conversions.py"
+  ],
+  "fn": "typed-ast-1.1.0-py35hfa6e2cd_0.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\alanw\\Anaconda3\\pkgs\\typed-ast-1.1.0-py35hfa6e2cd_0",
+    "type": 1
+  },
+  "md5": "cf4824b080bf46955f81a6187549f6c3",
+  "name": "typed-ast",
+  "package_tarball_full_path": "C:\\Users\\alanw\\Anaconda3\\pkgs\\typed-ast-1.1.0-py35hfa6e2cd_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/_ast27.cp35-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "89634cfeb8cb7f479d6a589c7896b60eaa122d59e144ab29442fa404e6aa0bda",
+        "sha256_in_prefix": "89634cfeb8cb7f479d6a589c7896b60eaa122d59e144ab29442fa404e6aa0bda",
+        "size_in_bytes": 165376
+      },
+      {
+        "_path": "Lib/site-packages/_ast3.cp35-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "16d3625b9af229ef2fd44ed14becd35dea665164e0560fb84da34c8e44e9d531",
+        "sha256_in_prefix": "16d3625b9af229ef2fd44ed14becd35dea665164e0560fb84da34c8e44e9d531",
+        "size_in_bytes": 181760
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast-1.1.0-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "51ad8fcf51f306640c669cb395ac06334a13498e517a200d5f680553dc166214",
+        "sha256_in_prefix": "51ad8fcf51f306640c669cb395ac06334a13498e517a200d5f680553dc166214",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast-1.1.0-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "bb9ac8ccdda2a7c42fff6346d9104513c0c77e14326ecfc33bc5df5854f4f7c3",
+        "sha256_in_prefix": "bb9ac8ccdda2a7c42fff6346d9104513c0c77e14326ecfc33bc5df5854f4f7c3",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast-1.1.0-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast-1.1.0-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2c2981ca0616068eaaa88a1a64d89ca3153e0cef6047626f8509152704b23759",
+        "sha256_in_prefix": "2c2981ca0616068eaaa88a1a64d89ca3153e0cef6047626f8509152704b23759",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f29f22bbe9377c2a5678a99f26760578bcb80288e216399ef8610cda7b74938",
+        "sha256_in_prefix": "4f29f22bbe9377c2a5678a99f26760578bcb80288e216399ef8610cda7b74938",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast/__pycache__/ast27.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "25474e90afc3be9f3994d91384d5c17b785ef36057cc8da8267257b5ab8545f1",
+        "sha256_in_prefix": "25474e90afc3be9f3994d91384d5c17b785ef36057cc8da8267257b5ab8545f1",
+        "size_in_bytes": 13019
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast/__pycache__/ast3.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c8333f685c64ec864d2a77a63c292d0c03ee88244a2ba6bcd70c1ac244591eb",
+        "sha256_in_prefix": "0c8333f685c64ec864d2a77a63c292d0c03ee88244a2ba6bcd70c1ac244591eb",
+        "size_in_bytes": 13737
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast/__pycache__/conversions.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b227a4392fd3d73bfa1321f5d2818ca4ef1e560a3fbee05df7218f7899c6e36",
+        "sha256_in_prefix": "2b227a4392fd3d73bfa1321f5d2818ca4ef1e560a3fbee05df7218f7899c6e36",
+        "size_in_bytes": 8783
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast/ast27.py",
+        "path_type": "hardlink",
+        "sha256": "0ef5ea462c15136428d80b4b91d9aeb5ed110fc389e4dfcbc79770526fb01976",
+        "sha256_in_prefix": "0ef5ea462c15136428d80b4b91d9aeb5ed110fc389e4dfcbc79770526fb01976",
+        "size_in_bytes": 12621
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast/ast3.py",
+        "path_type": "hardlink",
+        "sha256": "8e59e07ffe652a7aeaafb51d13e52ebd64f0a8c2f6c4afe3f689950748bfee8b",
+        "sha256_in_prefix": "8e59e07ffe652a7aeaafb51d13e52ebd64f0a8c2f6c4afe3f689950748bfee8b",
+        "size_in_bytes": 13511
+      },
+      {
+        "_path": "Lib/site-packages/typed_ast/conversions.py",
+        "path_type": "hardlink",
+        "sha256": "4f8b8b723d1353e65110622a4a9cabc7d6b32755891d345c532cf593101894d0",
+        "sha256_in_prefix": "4f8b8b723d1353e65110622a4a9cabc7d6b32755891d345c532cf593101894d0",
+        "size_in_bytes": 8564
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 143763,
+  "subdir": "win-64",
+  "timestamp": 1533378820342,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/typed-ast-1.1.0-py35hfa6e2cd_0.tar.bz2",
+  "version": "1.1.0"
+}

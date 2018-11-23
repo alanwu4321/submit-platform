@@ -1,0 +1,43 @@
+==> 2018-10-23 01:40:37 <==
+# cmd: C:\Users\alanw\Anaconda3\Scripts\conda create --name TRY1 python=3.5
+# conda version: 4.5.11
++defaults::certifi-2018.8.24-py35_1
++defaults::pip-10.0.1-py35_0
++defaults::python-3.5.6-he025d50_0
++defaults::setuptools-40.2.0-py35_0
++defaults::vc-14.1-h0510ff6_4
++defaults::vs2015_runtime-14.15.26706-h3a45250_0
++defaults::wheel-0.31.1-py35_0
++defaults::wincertstore-0.2-py35hfebbdb8_0
+# update specs: ['python=3.5']
+==> 2018-10-23 01:46:46 <==
+# cmd: C:\Users\alanw\Anaconda3\Scripts\conda install django
+# conda version: 4.5.11
++defaults::django-2.1.1-py35_0
++defaults::pytz-2018.5-py35_0
+# update specs: ['django']
+==> 2018-11-20 00:22:33 <==
+# cmd: C:\Users\alanw\Anaconda3\Scripts\conda install --name TRY1 pylint
+# conda version: 4.5.11
++defaults::astroid-2.0.4-py35_0
++defaults::colorama-0.3.9-py35h32a752f_0
++defaults::isort-4.3.4-py35_0
++defaults::lazy-object-proxy-1.3.1-py35hfa6e2cd_2
++defaults::mccabe-0.6.1-py35_1
++defaults::pylint-2.1.1-py35_0
++defaults::six-1.11.0-py35_1
++defaults::typed-ast-1.1.0-py35hfa6e2cd_0
++defaults::wrapt-1.10.11-py35hfa6e2cd_2
+# update specs: ['pylint']
+==> 2018-11-21 04:44:40 <==
+# cmd: C:\Users\alanw\Anaconda3\Scripts\conda install -c anaconda django
+# conda version: 4.5.11
+-defaults::certifi-2018.8.24-py35_1
+-defaults::django-2.1.1-py35_0
+-defaults::vc-14.1-h0510ff6_4
+-defaults::vs2015_runtime-14.15.26706-h3a45250_0
++anaconda::certifi-2018.8.24-py35_1
++anaconda::django-2.1.1-py35_0
++anaconda::vc-14.1-h21ff451_3
++anaconda::vs2015_runtime-15.5.2-3
+# update specs: ['django']
